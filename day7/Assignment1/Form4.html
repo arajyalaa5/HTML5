@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art</title>
+</head>
+<body style="background-color: rgb(132, 101, 25);">
+     <!-- color,range,url,step,autofocus,autocomplete on or off,maxlength,minlength,multiple,readonly,disabled -->
+     
+        <h1 align="center">Art Competition Form</h1>
+        <p align="center">Thank you for participatong in our art competition.please fill in the form</p>
+        <hr>
+        <center>
+        <form autocomplete="on">
+        <label for="F_name"><i>First Name:</i></label>
+        <input type="text" id="F_name" placeholder="Enter first name" name="Fname" maxlength="20" minlength="4"><br><br>
+
+        <label for="L_name"><i>Last Name:</i></label>
+        <input type="text" id="L_name" placeholder="Enter last name" name="Lname"><br><br>
+
+        <label for="color">Choose your Favourite color:</label>
+        <input type="color" id="color" name="color" name="color" ><br><br>
+
+        <label for="range">Rate your drawing skill:</label>
+        <input type="range" id="range" name="range" min="2" max="10" step="2"><br><br>
+
+        <label for="url">Paste your wesite:</label>
+        <input type="url" id="url" name="url"><br><br>
+
+        <label for="search">Follow us on:</label>
+        <input type="search" id="search" name="search" placeholder="https://www.instagram.com/accounts/login/?hl=en" disabled><br><br>
+
+        <label id="comments">Comments:</label>
+        <textarea rows="5" cols="50" maxlength="100" minlength="10" placeholder="comments" name="comments"></textarea><br><br>
+
+        <input type="submit">
+
+        <hr>
+     </form>
+    </center>
+</body>
+</html>
